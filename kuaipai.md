@@ -44,12 +44,18 @@
 ## 4、百度参数实战讲解
         百度参数解释看：百度参数研究.txt
         拆解URL参数 = https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E7%9F%B3%E6%9D%90%E9%9B%95%E5%88%BB%E6%9C%BA&fenlei=256&rsv_pq=0xa04e32510005bc75&rsv_t=4ddazcUJo09Kpc0kD1oCdn3Z6kvFA%2FiFF%2BlkXM3yJcgZzc91CfsKz2tKKus&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_btype=i&inputT=5916&si=jnjcsk.com&ct=2097152
-        1.ie = 
+        1.ie = 查询关键词的编码，缺省设置为简体中文，ie=gb2312
         2.rsv_bp=1 = 百度搜索结果的页眉(header)搜索框中继续搜索
         3.rsv_idx=1 = 表示未百度账户
         4.tn = 把百度放在框架中
         5.wd = 关键词
-        6.fenlei = 
+        6.fenlei = 分类
+        7.rsv_pq =（搜索验证）
+        8.rsv_t =（搜索验证）
+        9.rqlang=cn = 语言中文
+        10.rsv_enter=1 = 在百度传统首页进行的搜索
+        11.si = 在限定的域名中搜索,比如想在本站内搜索可使用参数si=gldadi.com,要使这个参数有效必须结合ct参数一起使用
+        12.ct = 此值一般是一串数字，可能是搜索请求的验证码
 ## 5、刷词思路、补位原理
 ## 6、补位实战、智能任务
 ## 7、策略及点击量设置
